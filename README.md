@@ -18,3 +18,46 @@ Why SBERT?
 
 Fast & Scalable: Ideal for tasks like semantic search and clustering.
 Accurate: Captures the meaning of sentences effectively.
+
+
+# Why We Used text-preprocessing.ipynb 
+
+The text-preprocessing.ipynb notebook plays a crucial role in preparing raw text data for use in the TextInsightGPT using SBERT project.
+
+
+
+Purpose of text-preprocessing.ipynb:
+
+1. Clean Raw Text Data:
+   Removes noise such as special characters, numbers, and extra whitespaces.
+   Ensures the input data is consistent and ready for analysis.
+
+2. Tokenization:
+
+   Splits text into words or sentences, making it easier for SBERT to process.
+
+3. Stopword Removal:
+
+   Removes common but uninformative words (e.g., "and," "is," "the") to focus on meaningful content.
+
+4. Stemming and Lemmatization:
+
+   Reduces words to their base or root forms (e.g., "running" → "run") for better semantic understanding.
+
+5. Text Normalization:
+
+   Converts all text to lowercase to ensure uniformity.
+   Handles contractions (e.g., "don't" → "do not").
+
+6. Data Preparation for Embedding:
+
+   Prepares the processed text data for generating embeddings using SBERT.
+
+7. Improves Model Performance:
+
+   Reduces noise and irrelevant information, leading to better results in tasks like similarity matching, clustering, and search.
+
+ This file is not used by chatbot , it is written just to show the basic functionalities.
+ long-story.txt: The document containing the text to be processed. The chatbot extracts and processes sections from this file. 
+ chatbot.py: The main Python script that runs the chatbot. It includes: Text cleaning and preprocessing. Regular expressions to extract titles and their corresponding content. 
+ Streamlit-based UI for user interaction.
