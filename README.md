@@ -57,8 +57,12 @@ Purpose of text-preprocessing.ipynb:
 
    Reduces noise and irrelevant information, leading to better results in tasks like similarity matching, clustering, and search.
 
- This file is not used by chatbot, it is written just to show the basic functionalities.
+ This file is not used by the chatbot, it is written just to show the basic functionalities.
  long-story.txt: The document containing the text to be processed. The chatbot extracts and processes sections from this file. 
  chatbot.py: The main Python script that runs the chatbot. It includes: Text cleaning and preprocessing. Regular expressions to extract titles and their corresponding content. 
  Streamlit-based UI for user interaction.
- ![Image Alt](). 
+ ![Image Alt](https://github.com/Manobhiramlol/TextInsightGPT-using-SBERT/blob/a3ba3b0670d340a11ba8c0f8707aa65052800c9c/Screenshot%202024-11-23%20175624.png)
+ ![Image Alt](https://github.com/Manobhiramlol/TextInsightGPT-using-SBERT/blob/a3ba3b0670d340a11ba8c0f8707aa65052800c9c/Screenshot%202024-11-23%20175641.png)
+ ![Image Alt](https://github.com/Manobhiramlol/TextInsightGPT-using-SBERT/blob/a3ba3b0670d340a11ba8c0f8707aa65052800c9c/Screenshot%202024-11-23%20175718.png)
+ 
+ 
