@@ -16,8 +16,8 @@ TextInsightGPT leverages SBERT (Sentence-BERT) to provide advanced text processi
 
 # Why SBERT?
 
-Fast & Scalable: Ideal for tasks like semantic search and clustering.
-Accurate: Captures the meaning of sentences effectively.
+1. Fast & Scalable: Ideal for tasks like semantic search and clustering.
+2. Accurate: Captures the meaning of sentences effectively.
 
 
 # Why We Used text-preprocessing.ipynb 
