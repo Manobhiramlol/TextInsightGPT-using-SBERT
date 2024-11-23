@@ -12,6 +12,8 @@ TextInsightGPT leverages SBERT (Sentence-BERT) to provide advanced text processi
 9. Knowledge Extraction: Extract meaningful insights from unstructured text.
 10. E-Learning Tools: Enhance learning with smarter tools like automatic grading or question generation.
 
+
+
 Why SBERT?
 
 Fast & Scalable: Ideal for tasks like semantic search and clustering.
